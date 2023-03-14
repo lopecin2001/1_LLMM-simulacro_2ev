@@ -1,7 +1,7 @@
 #padre {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 12px;
     width: 70%;
     margin: auto;
@@ -13,7 +13,7 @@
   }
   .hijos:nth-of-type(2) {
     background-color: #f5c396;
-    height: 49.9vw;
+    height: 500px;
     grid-column: 3/5;
     grid-row: 1/4;
   }
@@ -43,7 +43,6 @@
       grid-template-columns: repeat(6, 1fr);
       grid-template-rows: repeat(4, 1fr);
       gap: 12px;
-  
       width: 70%;
       margin: auto;
     }
@@ -55,7 +54,8 @@
     }
     .hijos:nth-of-type(2) {
       background-color: #f5c396;
-      height: 22.4vw;
+      /*height: 22.4vw;*/
+      height: 220px;
       grid-column: 4/6;
       grid-row: 1/3;
     }

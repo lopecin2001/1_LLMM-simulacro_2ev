@@ -32,6 +32,7 @@
       align-self: flex-end;
       justify-self: flex-end;
     }*/
+    
     .hijos:nth-of-type(2) {
       align-self: stretch;
       background-color: #b8f2e6;
